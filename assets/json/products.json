@@ -1,0 +1,938 @@
+[
+    {
+        "id": 1,
+        "description": "Shampoo TRESEMME 24 Hour Volume 828ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Shampoo-TRESEMME-1",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 2,
+        "description": "Shampoo TRESEMME Flawless Curl 7X 828ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Shampoo-TRESEMME-2",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 3,
+        "description": "Acondicionador TRESEMME Color Revitalize 828ml",
+        "category": "CAPILAR",
+        "section": "fast",
+        "img_name": "Acondicionador-TRESEMME-3",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 4,
+        "description": "Acondicionador TRESEMME Smooth & Silky 828ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Acondicionador-TRESEMME-4",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 5,
+        "description": "Shampoo TRESEMME Smooth & Silky 828ml",
+        "category": "CAPILAR",
+        "section": "trends",
+        "img_name": "Shampoo-TRESEMME-5",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 6,
+        "description": "Shampoo Charcoal Citrus HASK 355ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Shampoo-Charcoal-6",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 7,
+        "description": "Shampoo Argan Oil Morroco HASK 355ml",
+        "category": "CAPILAR",
+        "section": "trends",
+        "img_name": "Shampoo-Argan-7",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 8,
+        "description": "Shampoo Keratin HASK 355ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Shampoo-Keratin-8",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 9,
+        "description": "Acondicionador Cactus Water HASK 355ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador-Cactus-9",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 10,
+        "description": "Acondicionador Blue Chamomile Blonde Care HASK 355ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador-Blue-10",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 11,
+        "description": "Shampoo en Seco Biotin Boost HASK 168ml",
+        "category": "CAPILAR",
+        "section": "fast",
+        "img_name": "Shampoo-en-11",
+        "price": 260,
+        "delivery": 80
+    },
+    {
+        "id": 12,
+        "description": "Shampoo en Seco Coconut HASK 168ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Shampoo-en-12",
+        "price": 260,
+        "delivery": 80
+    },
+    {
+        "id": 13,
+        "description": "Shampoo Silver JHAIMACK 365ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Shampoo-Silver-13",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 14,
+        "description": "Acondicionador Silver JHAIMACK 365ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Acondicionador-Silver-14",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 15,
+        "description": "Acondicionador Silk System Shine TEC ITALY 300ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Acondicionador-Silk-15",
+        "price": 674,
+        "delivery": 80
+    },
+    {
+        "id": 16,
+        "description": "Acondicionador Silver EVERY STRAND 399ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador-Silver-16",
+        "price": 330,
+        "delivery": 80
+    },
+    {
+        "id": 17,
+        "description": "Acondicionador Silver FIRENZE 300ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador-Silver-17",
+        "price": 436.46,
+        "delivery": 80
+    },
+    {
+        "id": 18,
+        "description": "Acondicionador Silver JHAIMACK 365ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador-Silver-18",
+        "price": 180,
+        "delivery": 80
+    },
+    {
+        "id": 19,
+        "description": "Acondicionador Silver SOFIA Professional 500ml#S114A",
+        "category": "CAPILAR",
+        "section": "fast",
+        "img_name": "Acondicionador-Silver-19",
+        "price": 180,
+        "delivery": 80
+    },
+    {
+        "id": 20,
+        "description": "Acondicionador Silver THB 443.6ml-15onz",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Acondicionador-Silver-20",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 21,
+        "description": "Acondicionador  FIRENZE Color Care 1000ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Acondicionador--21",
+        "price": 319.16,
+        "delivery": 80
+    },
+    {
+        "id": 22,
+        "description": "Acondicionador  Fructis garnier good bye daños 350ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Acondicionador--22",
+        "price": 80,
+        "delivery": 80
+    },
+    {
+        "id": 23,
+        "description": "Acondicionador  Loreal Elvive Nutricion (cabello Seco) 400ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Acondicionador--23",
+        "price": 160,
+        "delivery": 80
+    },
+    {
+        "id": 24,
+        "description": "Acondicionador  Loreal Elvive Reparacion Total Extreme 400ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador--24",
+        "price": 160,
+        "delivery": 80
+    },
+    {
+        "id": 25,
+        "description": "Acondicionador  Repair Dry Hair Lakme 300ML",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador--25",
+        "price": 420.7,
+        "delivery": 80
+    },
+    {
+        "id": 26,
+        "description": "Acondicionador  Silver XHC 400ML-Nevada",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Acondicionador--26",
+        "price": 120,
+        "delivery": 80
+    },
+    {
+        "id": 27,
+        "description": "Acondicionador 12 en 1 SKALA 325ml",
+        "category": "CAPILAR",
+        "section": "fast",
+        "img_name": "Acondicionador-12-27",
+        "price": 200,
+        "delivery": 80
+    },
+    {
+        "id": 28,
+        "description": "Acondicionador 15 en 1 keratina Nevada 510ml Item.KH01826",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Acondicionador-15-28",
+        "price": 160,
+        "delivery": 80
+    },
+    {
+        "id": 29,
+        "description": "Acondicionador 2 Fase Keratin Complex NISHMAN 400ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Acondicionador-2-29",
+        "price": 335,
+        "delivery": 80
+    },
+    {
+        "id": 30,
+        "description": "Acondicionador Absolute Straight  Firenze 300ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Acondicionador-Absolute-30",
+        "price": 306.93,
+        "delivery": 80
+    },
+    {
+        "id": 31,
+        "description": "Crema Activadora de Rizo CREME OF NATURE 354ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Crema-Activadora-31",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 32,
+        "description": "Crema Activadora de Rizo LOTTA BODY 300ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Crema-Activadora-32",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 33,
+        "description": "Crema Activadora de Rizos LOTTA BODY Milk Honey 150.8ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Crema-Activadora-33",
+        "price": 230,
+        "delivery": 80
+    },
+    {
+        "id": 34,
+        "description": "Crema AFRICAN PRIDE Dream Kids 170g",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Crema-AFRICAN-34",
+        "price": 210,
+        "delivery": 80
+    },
+    {
+        "id": 35,
+        "description": "Polvo Compacto Mineral L.A COLORS CM9377 Classic Tan",
+        "category": "MAQUILLAJE",
+        "section": "fast",
+        "img_name": "Polvo-Compacto-35",
+        "price": 174.87,
+        "delivery": 80
+    },
+    {
+        "id": 36,
+        "description": "Polvo Compacto Mineral L.A COLORS CM9378 Warm Caramel",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Polvo-Compacto-36",
+        "price": 174.87,
+        "delivery": 80
+    },
+    {
+        "id": 37,
+        "description": "Crema Alisadora Liso Xpress XIOMARA 250ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Crema-Alisadora-37",
+        "price": 200,
+        "delivery": 80
+    },
+    {
+        "id": 38,
+        "description": "Shampoo AFRICAN PRIDE Dream Kids 355ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Shampoo-AFRICAN-38",
+        "price": 210,
+        "delivery": 80
+    },
+    {
+        "id": 39,
+        "description": "Shampoo Afro Hair Style Argan Oil EMBELLEZE NOVEX 300ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Shampoo-Afro-39",
+        "price": 200,
+        "delivery": 80
+    },
+    {
+        "id": 40,
+        "description": "Shampoo Agua de Arroz NOVEX 300ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Shampoo-Agua-40",
+        "price": 200,
+        "delivery": 80
+    },
+    {
+        "id": 41,
+        "description": "Shampoo Argan Oil CREME OF NATURE 591ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Shampoo-Argan-41",
+        "price": 450,
+        "delivery": 80
+    },
+    {
+        "id": 42,
+        "description": "Polvo Compacto Mineral L.A COLORS CM9379 Sand",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-42",
+        "price": 174.87,
+        "delivery": 80
+    },
+    {
+        "id": 43,
+        "description": "Shampoo Argan Oil Macadamia EVERY STRAND 399ml",
+        "category": "CAPILAR",
+        "section": "fast",
+        "img_name": "Shampoo-Argan-43",
+        "price": 260,
+        "delivery": 80
+    },
+    {
+        "id": 44,
+        "description": "Shampoo Argan Oil Morroco HASK 355ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Shampoo-Argan-44",
+        "price": 260,
+        "delivery": 80
+    },
+    {
+        "id": 45,
+        "description": "Shampoo Argan+Collagen THB Studio 443.6ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Shampoo-Argan+Collagen-45",
+        "price": 280,
+        "delivery": 80
+    },
+    {
+        "id": 46,
+        "description": "Polvo Compacto Mineral L.A COLORS CM9380 Toasted Almond",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Polvo-Compacto-46",
+        "price": 174.87,
+        "delivery": 80
+    },
+    {
+        "id": 47,
+        "description": "Shampoo Azeite de Oliva NOVEX 300ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Shampoo-Azeite-47",
+        "price": 200,
+        "delivery": 80
+    },
+    {
+        "id": 48,
+        "description": "Polvo Compacto RUBY ROSE Item.HB-7206",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-48",
+        "price": 61.79,
+        "delivery": 80
+    },
+    {
+        "id": 49,
+        "description": "Polvo Compacto RUBY ROSE Tonos Surtido Item.HB-7212",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-49",
+        "price": 101.72,
+        "delivery": 80
+    },
+    {
+        "id": 50,
+        "description": "Polvo Compacto Selfie Tonos Surtido RUBY ROSE Item.HB-7228",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-50",
+        "price": 80.96,
+        "delivery": 80
+    },
+    {
+        "id": 51,
+        "description": "Shampoo Baby CARLA BRAVO 944ml-32onz",
+        "category": "CAPILAR",
+        "section": "fast",
+        "img_name": "Shampoo-Baby-51",
+        "price": 80,
+        "delivery": 80
+    },
+    {
+        "id": 52,
+        "description": "Shampoo Baby Enchante 991ml(33.50nz)",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Shampoo-Baby-52",
+        "price": 100,
+        "delivery": 80
+    },
+    {
+        "id": 53,
+        "description": "Polvo Compacto L.A GIRL Pro.face GPP605 Nude Beige",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Polvo-Compacto-53",
+        "price": 218.59,
+        "delivery": 80
+    },
+    {
+        "id": 54,
+        "description": "Shampoo BELLEPON Manzanilla 250ml",
+        "category": "CAPILAR",
+        "section": "best",
+        "img_name": "Shampoo-BELLEPON-54",
+        "price": 120,
+        "delivery": 80
+    },
+    {
+        "id": 55,
+        "description": "Shampoo BELLEPON Manzanilla 440ml",
+        "category": "CAPILAR",
+        "section": "Trends",
+        "img_name": "Shampoo-BELLEPON-55",
+        "price": 160,
+        "delivery": 80
+    },
+    {
+        "id": 56,
+        "description": "Polvo Compacto MILANI Conceal+Perfect #04 Natural",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-56",
+        "price": 500,
+        "delivery": 80
+    },
+    {
+        "id": 57,
+        "description": "Shampoo BELLEPON Matizador & Luces Negro 250ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Shampoo-BELLEPON-57",
+        "price": 120,
+        "delivery": 80
+    },
+    {
+        "id": 58,
+        "description": "Shampoo BELLEPON Matizador & Luces Negro 440ml",
+        "category": "CAPILAR",
+        "section": "featured",
+        "img_name": "Shampoo-BELLEPON-58",
+        "price": 160,
+        "delivery": 80
+    },
+    {
+        "id": 59,
+        "description": "Shampoo BELLEPON Matizador & Luces Negro 750ml",
+        "category": "CAPILAR",
+        "section": "fast",
+        "img_name": "Shampoo-BELLEPON-59",
+        "price": 240,
+        "delivery": 80
+    },
+    {
+        "id": 60,
+        "description": "Base Liquida  Pro.matte L.A GIRL GLM671 Ivory",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Base-Liquida-60",
+        "price": 349.75,
+        "delivery": 80
+    },
+    {
+        "id": 61,
+        "description": "Base Liquida  Pro.matte L.A GIRL GLM6716 Nude",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Base-Liquida-61",
+        "price": 349.75,
+        "delivery": 80
+    },
+    {
+        "id": 62,
+        "description": "Base Liquida  Pro.matte L.A GIRL GLM6717 Soft Beige",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Base-Liquida-62",
+        "price": 349.75,
+        "delivery": 80
+    },
+    {
+        "id": 63,
+        "description": "Base Liquida Colorstay REVLON  24hrs Normal\/Dry #330",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Base-Liquida-63",
+        "price": 570,
+        "delivery": 80
+    },
+    {
+        "id": 64,
+        "description": "Base Liquida Colorstay REVLON  24hrs Normal\/Dry #460",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Base-Liquida-64",
+        "price": 570,
+        "delivery": 80
+    },
+    {
+        "id": 65,
+        "description": "Base Liquida Colorstay REVLON 24 Horas #330  Natural Tan",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Base-Liquida-65",
+        "price": 570,
+        "delivery": 80
+    },
+    {
+        "id": 66,
+        "description": "Base Liquida Covergirl Clean  #165",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Base-Liquida-66",
+        "price": 250,
+        "delivery": 80
+    },
+    {
+        "id": 67,
+        "description": "Base Liquida Covergirl Clean  #560",
+        "category": "MAQUILLAJE",
+        "section": "fast",
+        "img_name": "Base-Liquida-67",
+        "price": 250,
+        "delivery": 80
+    },
+    {
+        "id": 68,
+        "description": "Base Liquida Covergirl Clean #105 Ivory",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Base-Liquida-68",
+        "price": 250,
+        "delivery": 80
+    },
+    {
+        "id": 69,
+        "description": "Base Liquida Forever & A Day 35ml KLEANCOLOR Surtido #LF277",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Base-Liquida-69",
+        "price": 130,
+        "delivery": 80
+    },
+    {
+        "id": 70,
+        "description": "Base Liquida Forever & A Day 60ml KLEANCOLOR Surtido #TF385",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Base-Liquida-70",
+        "price": 130,
+        "delivery": 80
+    },
+    {
+        "id": 71,
+        "description": "Base MILANI Conceal+Perfect #00 Light Natural",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Base-MILANI-71",
+        "price": 480,
+        "delivery": 80
+    },
+    {
+        "id": 72,
+        "description": "Base MILANI Conceal+Perfect #01",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Base-MILANI-72",
+        "price": 480,
+        "delivery": 80
+    },
+    {
+        "id": 73,
+        "description": "Base Milani Conceal+Perfect #01A",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Base-Milani-73",
+        "price": 480,
+        "delivery": 80
+    },
+    {
+        "id": 74,
+        "description": "Base MILANI Conceal+Perfect #02",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Base-MILANI-74",
+        "price": 480,
+        "delivery": 80
+    },
+    {
+        "id": 75,
+        "description": "Polvo Compacto Banana KLEANCOLOR #PP2871",
+        "category": "MAQUILLAJE",
+        "section": "fast",
+        "img_name": "Polvo-Compacto-75",
+        "price": 100,
+        "delivery": 80
+    },
+    {
+        "id": 76,
+        "description": "Polvo Compacto Colorstay REVLON  830 Light Medium",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Polvo-Compacto-76",
+        "price": 480,
+        "delivery": 80
+    },
+    {
+        "id": 77,
+        "description": "Polvo Compacto Colorstay REVLON  840 Medium",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Polvo-Compacto-77",
+        "price": 480,
+        "delivery": 80
+    },
+    {
+        "id": 78,
+        "description": "Polvo Compacto Colorstay REVLON  850 Medium Deep",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Polvo-Compacto-78",
+        "price": 480,
+        "delivery": 80
+    },
+    {
+        "id": 79,
+        "description": "Polvo Compacto Flawless Stay 3.0 BEAUTY CREATIONS #FSP3.0",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Polvo-Compacto-79",
+        "price": 270,
+        "delivery": 80
+    },
+    {
+        "id": 80,
+        "description": "Polvo Compacto Flawless Stay 4.0 BEAUTY CREATIONS #FSP4.0",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-80",
+        "price": 270,
+        "delivery": 80
+    },
+    {
+        "id": 81,
+        "description": "Polvo Compacto Flawless Stay 5.0 BEAUTY CREATIONS #FSP5.0",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-81",
+        "price": 270,
+        "delivery": 80
+    },
+    {
+        "id": 82,
+        "description": "Polvo Compacto Flawless Stay 9.0 BEAUTY CREATIONS #FSP9.0",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-82",
+        "price": 270,
+        "delivery": 80
+    },
+    {
+        "id": 83,
+        "description": "Polvo Compacto JORDANA Pressed Perfect #01",
+        "category": "MAQUILLAJE",
+        "section": "fast",
+        "img_name": "Polvo-Compacto-83",
+        "price": 170,
+        "delivery": 80
+    },
+    {
+        "id": 84,
+        "description": "Polvo Compacto JORDANA Pressed Perfect #02",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Polvo-Compacto-84",
+        "price": 170,
+        "delivery": 80
+    },
+    {
+        "id": 85,
+        "description": "Polvo Compacto JORDANA Pressed Perfect #03",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Polvo-Compacto-85",
+        "price": 170,
+        "delivery": 80
+    },
+    {
+        "id": 86,
+        "description": "Polvo Compacto L.A GIRL Pro.face GPP601 Fair",
+        "category": "MAQUILLAJE",
+        "section": "best",
+        "img_name": "Polvo-Compacto-86",
+        "price": 218.59,
+        "delivery": 80
+    },
+    {
+        "id": 87,
+        "description": "Polvo Compacto L.A GIRL Pro.face GPP602 Classic Ivory",
+        "category": "MAQUILLAJE",
+        "section": "Trends",
+        "img_name": "Polvo-Compacto-87",
+        "price": 218.59,
+        "delivery": 80
+    },
+    {
+        "id": 88,
+        "description": "Polvo Compacto L.A GIRL Pro.face GPP603 Porcelain",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-88",
+        "price": 218.59,
+        "delivery": 80
+    },
+    {
+        "id": 89,
+        "description": "Polvo Compacto L.A GIRL Pro.face GPP604 Creamy Natural",
+        "category": "MAQUILLAJE",
+        "section": "featured",
+        "img_name": "Polvo-Compacto-89",
+        "price": 218.59,
+        "delivery": 80
+    },
+    {
+        "id": 90,
+        "description": "Aceite de cuticula GC NAILS Item. GCAC",
+        "category": "MANICURA",
+        "section": "featured",
+        "img_name": "Aceite-de-90",
+        "price": 40,
+        "delivery": 80
+    },
+    {
+        "id": 91,
+        "description": "Aceite de Cuticula Grande MIA SECRET 1onz",
+        "category": "MANICURA",
+        "section": "fast",
+        "img_name": "Aceite-de-91",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 92,
+        "description": "Acetona Pura DAROSA 1080ml",
+        "category": "MANICURA",
+        "section": "best",
+        "img_name": "Acetona-Pura-92",
+        "price": 240,
+        "delivery": 80
+    },
+    {
+        "id": 93,
+        "description": "Anti Hongo Bliss 15ml MC NAILS Item.MCAH001",
+        "category": "MANICURA",
+        "section": "Trends",
+        "img_name": "Anti-Hongo-93",
+        "price": 641,
+        "delivery": 80
+    },
+    {
+        "id": 94,
+        "description": "Blush Cleaner MIA SECRET 2onz-59ml Item.BC-55",
+        "category": "MANICURA",
+        "section": "best",
+        "img_name": "Blush-Cleaner-94",
+        "price": 300,
+        "delivery": 80
+    },
+    {
+        "id": 95,
+        "description": "Body Spray JDMAN Brave 236ml",
+        "category": "PERFUMERIA",
+        "section": "Trends",
+        "img_name": "Body-Spray-95",
+        "price": 220,
+        "delivery": 80
+    },
+    {
+        "id": 96,
+        "description": "Body Spray JDMAN Natural Man 236ml",
+        "category": "PERFUMERIA",
+        "section": "featured",
+        "img_name": "Body-Spray-96",
+        "price": 220,
+        "delivery": 80
+    },
+    {
+        "id": 97,
+        "description": "Body VICTORIA SECRET Bare Vanilla Untamed 250ml",
+        "category": "PERFUMERIA",
+        "section": "featured",
+        "img_name": "Body-VICTORIA-97",
+        "price": 450,
+        "delivery": 80
+    },
+    {
+        "id": 98,
+        "description": "Body VICTORIA SECRET Berry Elixir No.16 250ml",
+        "category": "PERFUMERIA",
+        "section": "featured",
+        "img_name": "Body-VICTORIA-98",
+        "price": 450,
+        "delivery": 80
+    },
+    {
+        "id": 99,
+        "description": "Body VICTORIA SECRET Canyon Flora 250ml",
+        "category": "PERFUMERIA",
+        "section": "fast",
+        "img_name": "Body-VICTORIA-99",
+        "price": 450,
+        "delivery": 80
+    },
+    {
+        "id": 100,
+        "description": "Colonia Fantasy 1000ml",
+        "category": "PERFUMERIA",
+        "section": "best",
+        "img_name": "Colonia-Fantasy-100",
+        "price": 330,
+        "delivery": 80
+    },
+    {
+        "id": 101,
+        "description": "Crema Corporal NIVEA 100ml",
+        "category": "CUIDADO PERSONAL",
+        "section": "Trends",
+        "img_name": "Crema-Corporal-101",
+        "price": 140,
+        "delivery": 80
+    },
+    {
+        "id": 102,
+        "description": "Crema Corporal Reafirmante Q10 NIVEA 250ml",
+        "category": "CUIDADO PERSONAL",
+        "section": "best",
+        "img_name": "Crema-Corporal-102",
+        "price": 260,
+        "delivery": 80
+    },
+    {
+        "id": 103,
+        "description": "Crema de Mano de Naranja TANIA Item.WKL393",
+        "category": "CUIDADO PERSONAL",
+        "section": "Trends",
+        "img_name": "Crema-de-103",
+        "price": 35,
+        "delivery": 80
+    },
+    {
+        "id": 104,
+        "description": "Crema Corporal Soft Milk Piel Seca 48hrs NIVEA 100ml",
+        "category": "CUIDADO PERSONAL",
+        "section": "featured",
+        "img_name": "Crema-Corporal-104",
+        "price": 130,
+        "delivery": 80
+    }
+]

@@ -1,10 +1,3 @@
-/**
-* Template Name: Logis
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -98,18 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
         dropDownIndicator.classList.toggle('bi-chevron-down');
       }
     })
-  });
-
-  /**
-   * Initiate pURE cOUNTER
-   */
-  new PureCounter();
-
-  /**
-   * Initiate glightbox
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
   });
 
   /**

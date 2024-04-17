@@ -1,4 +1,6 @@
 @import url('products-galery.css');
+@import url('nav.css');
+/* @import url('main.css'); */
 
 /* .container-deals{
   /* background-color: grey; */
@@ -6,7 +8,7 @@
   white-space: nowrap;
 } */
 
-.container-deals{
+.container-product{
   width: 100%;
   max-width: 1100px;
   margin: auto;
@@ -18,22 +20,22 @@
   grid-gap: 15px;
 }
 
-.content-deals{
+.product-card{
   /* background: orangered; */
   padding: 1rem;
 }
 
-.content-deals .box-img{
+.product-card .box-img{
   height: 60%;
   width: 100%;
 }
 
-.content-deals .box-img figure{
+.product-card .box-img figure{
   height: 100%;
   width: 100%;
 }
 
-.content-deals .box-img figure img{
+.product-card .box-img figure img{
     width: 100%;
     height: 100%;
     object-fit: cover;

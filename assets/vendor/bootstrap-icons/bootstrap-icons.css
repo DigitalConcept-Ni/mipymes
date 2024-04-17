@@ -13,7 +13,7 @@ url("./fonts/bootstrap-icons.woff?dd67030699838ea613ee6dbda90effa6") format("wof
 
 .bi::before,
 [class^="bi-"]::before,
-[class*=" bi-"]::before {
+[class*=" bi-"]::before { 
   display: inline-block;
   font-family: bootstrap-icons !important;
   font-style: normal;
