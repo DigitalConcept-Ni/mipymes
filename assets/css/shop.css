@@ -1,0 +1,189 @@
+/* Link items */
+
+.shop-menu {
+    position: fixed;
+    /* background: #272727; */
+    background: white;
+    left: -100%;
+    /* left: 100%; */
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    z-index: 100;
+    transition: all 0.70s ease-in-out;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.10);
+}
+
+.shop-menu-header{
+    height: 10%;
+    padding: 1rem;
+    color: grey;
+}
+
+.visible {
+    left: 0;
+}
+
+.continer-shop-items {
+    /* display: flex;
+
+    align-items: center; 
+    flex-direction: row;
+    list-style: none; */
+    padding: 1rem;
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.shop-item {
+    display: flex;
+    flex-direction: row;
+    height: 14rem;
+    width: 100%;
+    /* background: red; */
+    border-bottom: 1px solid grey;
+}
+
+.shop-item .shop-img {
+    width: 40%;
+    /* background: #000; */
+}
+
+.shop-item .shop-img figure {
+    width: 100%;
+    height: 100%;
+}
+
+.shop-item .shop-img figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.shop-item .shop-info{
+    width: 60%;
+    padding: .5rem;
+}
+
+.shop-item .shop-info .shop-p{
+    font-size: 0.8rem;
+}
+
+.shop-item .shop-info .container-btn-shop{
+    background: #000;
+    height: 1rem;
+}
+
+#container-shop-mount{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+#container-count{
+    background: green;
+    color: white;
+    width: 95%;
+    height: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .5rem;
+    padding: .3rem;
+
+    /* display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    background: orange;
+    height: 10%;
+    width: 90%;
+    padding: .7rem;
+    margin: 0 1.5rem;
+
+    color: white;
+    font-size: 1.4rem; */
+}
+
+/* STYLES FOR THE ICON SHOP */
+
+.btn-icon-shop{
+    position: relative;
+}
+
+#count-items{
+    position: absolute;
+    right: 0px;
+    top: -5px;
+    border-radius: .6rem;
+    padding: 1px 6px;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 500;
+    background: transparent;
+    color: white;
+  }
+
+
+/* Button menu */
+
+.btn-icon {
+    height: 35px;
+    width: 45px;
+    background-color: transparent;
+    border: none;
+    background-image: none;
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.btn-icon .icon-bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: green;
+    margin: 5px 0;
+    transition: all 0.5s ease;
+}
+
+.btn-icon:hover .icon-bar {
+    background-color: grey;
+}
+
+/* btn x */
+
+.btn-icon-shop-x {
+    height: 35px;
+    width: 25px;
+    /* background-color: red; */
+    position: absolute;
+    /* display: flex; */
+    align-items: center;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.btn-icon-shop-x::before,
+.btn-icon-shop-x::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    /* cross thickness */
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.btn-icon-shop-x::before {
+    transform: rotate(45deg);
+}
+
+.btn-icon-shop-x::after {
+    transform: rotate(-45deg);
+}

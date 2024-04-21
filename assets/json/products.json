@@ -396,15 +396,6 @@
         "delivery": 80
     },
     {
-        "id": 45,
-        "description": "Shampoo Argan+Collagen THB Studio 443.6ml",
-        "category": "CAPILAR",
-        "section": "Trends",
-        "img_name": "Shampoo-Argan+Collagen-45",
-        "price": 280,
-        "delivery": 80
-    },
-    {
         "id": 46,
         "description": "Polvo Compacto Mineral L.A COLORS CM9380 Toasted Almond",
         "category": "MAQUILLAJE",
@@ -438,15 +429,6 @@
         "section": "featured",
         "img_name": "Polvo-Compacto-49",
         "price": 101.72,
-        "delivery": 80
-    },
-    {
-        "id": 50,
-        "description": "Polvo Compacto Selfie Tonos Surtido RUBY ROSE Item.HB-7228",
-        "category": "MAQUILLAJE",
-        "section": "featured",
-        "img_name": "Polvo-Compacto-50",
-        "price": 80.96,
         "delivery": 80
     },
     {
@@ -492,15 +474,6 @@
         "section": "Trends",
         "img_name": "Shampoo-BELLEPON-55",
         "price": 160,
-        "delivery": 80
-    },
-    {
-        "id": 56,
-        "description": "Polvo Compacto MILANI Conceal+Perfect #04 Natural",
-        "category": "MAQUILLAJE",
-        "section": "featured",
-        "img_name": "Polvo-Compacto-56",
-        "price": 500,
         "delivery": 80
     },
     {
@@ -555,15 +528,6 @@
         "section": "best",
         "img_name": "Base-Liquida-62",
         "price": 349.75,
-        "delivery": 80
-    },
-    {
-        "id": 63,
-        "description": "Base Liquida Colorstay REVLON  24hrs Normal\/Dry #330",
-        "category": "MAQUILLAJE",
-        "section": "Trends",
-        "img_name": "Base-Liquida-63",
-        "price": 570,
         "delivery": 80
     },
     {
