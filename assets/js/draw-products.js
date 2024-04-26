@@ -43,7 +43,6 @@ const getData = async (category) => {
 
           if(res.section === sections[3]){
             count3 += 1;
-            console.log(count3)
             if (count3 <= 5){
               return res.section === sections[3];
             }
@@ -117,7 +116,7 @@ const drawProduct = async (category) => {
   // container.innerHTML = cards
 }
 
-console.log(drawProduct('all'))
+drawProduct('all')
 
 
 // CLICK BTN PERECEDEROS
