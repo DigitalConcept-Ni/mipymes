@@ -24,16 +24,137 @@
 
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
 
+  <!-- links personal styles -->
+
   <link rel="stylesheet" href="assets/css/styles.css">
 
-  <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
+  <!-- styles for sweet alert 2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.11.0/dist/sweetalert2.min.css">
 
 <body>
+
+  <!-- btn icon whatsapp -->
+
   <div id="icon">
     <a target="_blank" href="tel:+50576103566">
-        <img src="assets/img/icon.png" alt="">
+      <img src="assets/img/icon.png" alt="">
     </a>
-</div>
+
+    <!-- end btn icon whatsapp -->
+  </div>
+
+  <!-- PART OF THE MODAL -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="form-group">
+            <input id="userName" autocomplete="off" type="text" class="form-control" placeholder="Usuario">
+          </div>
+
+          <div class="form-group">
+            <input id="psw" type="password" autocomplete="off" class="form-control" placeholder="Contraseña">
+          </div>
+
+          <div class="form-group">
+            <div class="w-50 text-left">
+              <a href="#">Recuperar Contraseña</a>
+            </div>
+          </div>
+
+          <p class="text-center">No eres usuario? <a data-toggle="tab" href="#signup">Regístrate</a></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="btnLoginModal" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PART OF THE MODAL PAYMENT CARD -->
+
+  <!-- Modal -->
+  <div class="modal fade hide" id="modalCard" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Registro de tarjeta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row">
+
+            <div class="col-12">
+
+              <div class="form-group">
+                <label for="idNumberCard">Numero de tarjeta </label>
+                <input type="text" id="idNumberCard" maxlength="19" placeholder="Ejm: 1234 5678 9012 3456"
+                  autocomplete="off" class="form-control">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-6">
+
+              <div class="form-group">
+                <label for="idEpirationDay">Fechas expiracion</label>
+                <input type="text" id="idEpirationDay" maxlength="5" placeholder="MM/YY" class=" form-control">
+              </div>
+
+            </div>
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="idCCV">CCV</label>
+                <input type="text" id="idCCV" maxlength="3" placeholder="000" class=" form-control">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-12">
+              <div class="form-input mb-3">
+                <label for="idNombreTarjeta">Nombre del tajetahabiente </label>
+                <input type="text" placeholder="Como aparece en la tarjeta" class="form-control">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- <div class="form-group">
+            <div class="w-50 text-left">
+              <a href="#">Guardar tarjeta</a>
+            </div>
+          </div> -->
+
+          <p class="text-center">No eres usuario? <a data-toggle="tab" href="#signup">Regístrate</a></p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="btnCardModal" class="btn btn-primary">Procesar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <header id="header" class="section-header">
     <section class="header-main border-bottom">
@@ -41,7 +162,7 @@
         <div class="row align-items-center">
           <div class="col-lg-3 col-sm-4 col-md-4 col-5">
             <!-- <img class="logo" src="http://ampexamples.com/data/upload/2017/08/bootstrap2_logo.png"> <span class="logo">BBBOOTSTRAP</span> </a> </div> -->
-            <img class="logo" src="assets/img/logo.png" height="60"> 
+            <img class="logo" src="assets/img/logo.png" height="60">
             <!-- <span class="logo">PYMESNIC</span> -->
           </div>
           <div class="col-lg-4 col-xl-5 col-sm-8 col-md-4 d-none d-md-block">
@@ -56,59 +177,21 @@
             </form>
           </div>
           <div class="col-lg-5 col-xl-4 col-sm-8 col-md-4 col-7">
-            <div class="d-flex justify-content-end"> 
+            <div class="d-flex align-items-center justify-content-end">
               <a data-abc="true" class="nav-link widget-header btn-icon-shop">
                 <span id="count-items">0</span>
                 <i class="fa fa-cart-shopping " style="color: white;"></i>
-              </a> 
-                <span class="vl"></span>
-              <div class="dropdown btn-group"> <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-abc="true"><i
-                    class="fas fa fa-bell"></i></a>
-                <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
-                  <li>
-                    <div class="notification-title">Mas informacion</div>
-                    <div class="notification-list">
-                      <div class="list-group"> <a href="affiliates"
-                          class="list-group-item list-group-item-action active" data-abc="true">
-                          <div class="notification-info">
-                            <div class="notification-list-user-img"><img
-                                src="https://img.icons8.com/nolan/100/000000/helping-hand.png" alt=""
-                                class="user-avatar-md rounded-circle"></div>
-                            <div class="notification-list-user-block"><span class="notification-list-user-name">Programa
-                                de afliacion</span> </div>
-                          </div>
-                        </a> <a href="redemption-center" class="list-group-item list-group-item-action active"
-                          data-abc="true">
-                          <div class="notification-info">
-                            <div class="notification-list-user-img"><img
-                                src="https://img.icons8.com/bubbles/100/000000/prize.png" alt=""
-                                class="user-avatar-md rounded-circle"></div>
-                            <div class="notification-list-user-block"><span class="notification-list-user-name">Centro
-                                de redencion</span> </div>
-                          </div>
-                        </a> <a href="#" class="list-group-item list-group-item-action active" data-abc="true">
-                          <div class="notification-info">
-                            <div class="notification-list-user-img"><img
-                                src="https://img.icons8.com/ultraviolet/100/000000/medal.png" alt=""
-                                class="user-avatar-md rounded-circle"></div>
-                            <div class="notification-list-user-block"><span
-                                class="notification-list-user-name">Logros</span> </div>
-                          </div>
-                        </a> <a href="#" class="list-group-item list-group-item-action active" data-abc="true">
-                          <div class="notification-info">
-                            <div class="notification-list-user-img"><img
-                                src="https://img.icons8.com/bubbles/100/000000/call-female.png" alt=""
-                                class="user-avatar-md rounded-circle"></div>
-                            <div class="notification-list-user-block"><span
-                                class="notification-list-user-name">Contactanos</span> </div>
-                          </div>
-                        </a> </div>
-                    </div>
-                  </li>
-                </ul>
-              </div> <span class="vl"></span> <a class="nav-link nav-user-img" href="#" data-toggle="modal"
-                data-target="#login-modal" data-abc="true"><span class="login">LOGIN</span></a>
+              </a>
+              <span class="vl"></span>
+
+
+
+              <a class="nav-link log" id="btnLogin" href="#" data-toggle="modal" data-target="#exampleModal"
+                data-abc="true"> <i class="fa fa-user"></i> </a>
+
+              <a class="nav-link d-none logout" id="spanLogout" href="#" data-abc="true"> <span id="spanLogin"
+                  class="mr-2"></span> <i class="fa fa-power-off"></i></a>
+
             </div>
           </div>
         </div>
@@ -121,7 +204,7 @@
               placeholder="Buscar producto" required="">
             <div class="input-group-append">
               <button type="submit" class="btn btn-secondary">
-                <i class="fa fa-search"></i> 
+                <i class="fa fa-search"></i>
               </button>
             </div>
           </div>
@@ -131,11 +214,12 @@
         </button>
         <div class="navbar-collapse collapse justify-content-center" id="dropdown6">
           <ul class="navbar-nav ">
-            <li class="nav-item"> <a class="nav-link" href="" data-abc="true">CAPILAR</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="" data-abc="true">Maquillaje</a></li>
-            <li class="nav-item"> <a class="nav-link" href="" data-abc="true">MANICURA</a></li>
-            <li class="nav-item"> <a class="nav-link" href="" data-abc="true">PERFUMERIA</a></li>
-            <li class="nav-item"> <a class="nav-link" href="" data-abc="true">CUIDADO PERSONAL</a></li>
+            <li class="nav-item"> <a id="catCapillary" class="nav-link" href="#" data-abc="true">CAPILAR</a> </li>
+            <li class="nav-item"> <a id="catMakeUp" class="nav-link" href="#" data-abc="true">Maquillaje</a></li>
+            <li class="nav-item"> <a id="catManicure" class="nav-link" href="#" data-abc="true">MANICURA</a></li>
+            <li class="nav-item"> <a id="catPerfumery" class="nav-link" href="#" data-abc="true">PERFUMERIA</a></li>
+            <li class="nav-item"> <a id="catPersonalCare" class="nav-link" href="#" data-abc="true">CUIDADO PERSONAL</a>
+            </li>
             <!-- <li class="nav-item"> <a class="nav-link" href="" data-abc="true">Blog</a> </li>
             <li class="nav-item"> <a class="nav-link" href="" data-abc="true">Support</a> </li> -->
           </ul>
@@ -176,21 +260,23 @@
 
         <div id="container-shop-mount">
 
+          <span id="cont-delivery-cost" style="font-size: .9rem; margin: .4rem 0rem; display: none;"><strong>Costo de
+              envio: </strong> C$ <span id="delivery-cost">0.00</span> </span>
           <div class="container-input">
-            <label for="moto">Moto: </label>
-            <input id="moto" type="checkbox">
+            <label for="cash">efectivo: </label>
+            <input id="inputPaymentCash" type="checkbox">
 
-            <label for="moto">Vehivulo: </label>
-            <input id="vehiculo" type="checkbox">
+            <label for="paymentCard">Tarjeta: </label>
+            <input id="paymentCard" type="checkbox">
           </div>
 
           <div id="container-count">
             <span>Procesar compra</span>
-              <span>Total: C$<span id="total-mount">0.00</span></span>
+            <span>Total: C$<span id="total-mount">0.00</span></span>
           </div>
-          
+
         </div>
-        
+
       </div>
 
       <!-- END SPACE FOR THE SHOP MENU -->
@@ -198,6 +284,12 @@
   </header>
 
   <main role="main container-fluid" style="margin-top: 2rem;">
+
+    <div id="container-category">
+      <h2 class="text-center" id="title-category"></h2>
+      <div id="container-category-porducts">
+      </div>
+    </div>
 
     <!-- This section will be disabled due to user guidance -->
 
@@ -287,7 +379,7 @@
 
     <h2 class="text-center">Productos Destacados</h2>
     <div id="featured" class="container-product">
-      
+
       <!-- <div class="product-card">
         <div class="box-img">
           <figure>
@@ -383,7 +475,7 @@
     <!-- /// END featured PRODUCTS /// -->
 
     <hr>
-    
+
     <!-- CONTENT FAST -->
 
     <div class="content-promotions-2">
@@ -481,7 +573,7 @@
 
         <div class="box-img">
           <figure>
-            <img src="assets/img/products/sh-41.jpg" alt="">
+            <img src="assets/img/products/body-jdman.png" alt="">
           </figure>
         </div>
 
@@ -520,106 +612,106 @@
     <!-- /// END PRODUCTOS MOST RELEVANT -->
 
 
-     <!-- CONTENT PROMOTIONS #2-->
-     <hr>
+    <!-- CONTENT PROMOTIONS #2-->
+    <hr>
 
-     <div class="content-promotions-2">
-       <div class="container">
-         <h2>Muestras rapidas</h2>
-         <span>cuidado capilar, correctores.</span>
- 
-       </div>
-       <div class="promotions-2">
- 
-         <div class="product-card">
-           <div class="box-img">
-             <figure>
-               <img src="assets/img/products/sh-38.jpg" alt="">
-             </figure>
-           </div>
-           <div class="info-product">
-             <span class="price">
-               C$ 210.00
-             </span>
-             <p class="description">
-               Shampoo AFRICAN PRIDE Dream Kids 355ml
-             </p>
-             <button class="btn-add">+ Add</button>
- 
-           </div>
-         </div>
- 
-         <div class="product-card">
-           <div class="box-img">
-             <figure>
-               <img src="assets/img/products/sh-43.jpg" alt="">
-             </figure>
-           </div>
-           <div class="info-product">
-             <span class="price">
-               C$ 260.00
-             </span>
-             <p class="description">
-               Shampoo Argan Oil Macadamia EVERY STRAND 399ml
-             </p>
-             <button class="btn-add">+ Add</button>
- 
-           </div>
-         </div>
- 
-         <div class="product-card">
-           <div class="box-img">
-             <figure>
-               <img src="assets/img/products/sh-52.jpg" alt="">
-             </figure>
-           </div>
-           <div class="info-product">
-             <span class="price">
-               C$ 80.00
-             </span>
-             <p class="description">
-               Shampoo Baby Enchante 991ml(33.50nz)
-             </p>
-             <button class="btn-add">+ Add</button>
- 
-           </div>
-         </div>
- 
-         <!-- BIG CARD INFO -->
-         <div class="box-img">
-           <figure>
-             <img src="assets/img/products/p2-1.jpg" alt="">
-           </figure>
-           <div class="box-information">
-             <h2 class="title" style="color: orangered;">Variedad de tonos</h2>
- 
-             <button class="btn-add">Compruébalo</button>
-           </div>
-         </div>
- 
-       </div>
-     </div>
- 
-     <!-- /// END CONTENT PROMOTIONS #2 /// -->
+    <div class="content-promotions-2">
+      <div class="container">
+        <h2>Muestras rapidas</h2>
+        <span>cuidado capilar, correctores.</span>
 
-        <!-- CONTENT TRENS-->
-        <hr>
+      </div>
+      <div class="promotions-2">
 
-        <div class="content-promotions-2">
-          <div class="container">
-            <h2>Tendencias</h2>
-            <span>cuidado capilar, correctores.</span>
-    
+        <div class="product-card">
+          <div class="box-img">
+            <figure>
+              <img src="assets/img/products/sh-38.jpg" alt="">
+            </figure>
           </div>
+          <div class="info-product">
+            <span class="price">
+              C$ 210.00
+            </span>
+            <p class="description">
+              Shampoo AFRICAN PRIDE Dream Kids 355ml
+            </p>
+            <button class="btn-add">+ Add</button>
 
-          <div id="Trends" class="container-product">
-
-
-    
           </div>
         </div>
-    
-        <!-- /// END CONTENT TRENDS /// -->
+
+        <div class="product-card">
+          <div class="box-img">
+            <figure>
+              <img src="assets/img/products/sh-43.jpg" alt="">
+            </figure>
+          </div>
+          <div class="info-product">
+            <span class="price">
+              C$ 260.00
+            </span>
+            <p class="description">
+              Shampoo Argan Oil Macadamia EVERY STRAND 399ml
+            </p>
+            <button class="btn-add">+ Add</button>
+
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="box-img">
+            <figure>
+              <img src="assets/img/products/sh-52.jpg" alt="">
+            </figure>
+          </div>
+          <div class="info-product">
+            <span class="price">
+              C$ 80.00
+            </span>
+            <p class="description">
+              Shampoo Baby Enchante 991ml(33.50nz)
+            </p>
+            <button class="btn-add">+ Add</button>
+
+          </div>
+        </div>
+
+        <!-- BIG CARD INFO -->
+        <div class="box-img">
+          <figure>
+            <img src="assets/img/products/p2-1.jpg" alt="">
+          </figure>
+          <div class="box-information">
+            <h2 class="title" style="color: orangered;">Variedad de tonos</h2>
+
+            <button class="btn-add">Compruébalo</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- /// END CONTENT PROMOTIONS #2 /// -->
+
+    <!-- CONTENT TRENS-->
+    <hr>
+
+    <div class="content-promotions-2">
+      <div class="container">
+        <h2>Tendencias</h2>
+        <span>cuidado capilar, correctores.</span>
+
+      </div>
+
+      <div id="Trends" class="container-product">
+
+
+
+      </div>
+    </div>
+
+    <!-- /// END CONTENT TRENDS /// -->
 
     <div class="end d-flex  justify-content-center align-items-center"
       style="height: 10rem; background-color: #5fb7ff8e;">
@@ -674,13 +766,13 @@
           <h5>Nuestros valores</h5>
           <ul class="list-unstyled text-small">
             <li>
-              <a class="text-muted" >Honestidad</a>
+              <a class="text-muted">Honestidad</a>
             </li>
             <li>
-              <a class="text-muted" >Puntualidad</a>
+              <a class="text-muted">Puntualidad</a>
             </li>
             <li>
-              <a class="text-muted" >Constancia</a>
+              <a class="text-muted">Constancia</a>
             </li>
           </ul>
         </div>
@@ -702,12 +794,14 @@
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script> 
+    crossorigin="anonymous"></script>
 
-    <!-- <script src="assets/js/main.js"></script> -->
-    <script src="assets/js/sweetalert2.min.js"></script>
-    <script src="assets/js/shop.js"></script>
-    <script src="assets/js/draw-products.js"></script>
+  <!-- <script src="assets/js/main.js"></script> -->
+  <!-- <script src="assets/js/sweetalert2.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="assets/js/shop.js"></script>
+  <script src="assets/js/draw-products.js"></script>
+  <script src="assets/js/login.js"></script>
 
 
 
