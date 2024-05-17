@@ -9,9 +9,13 @@ var sale = {
         products_review: []
     },
     calculateInvoice: function () {
-        let total = document.getElementById('total-mount')
+        let total = document.getElementById('total-mount');
+        let delivery = document.getElementById('delivery-cost');
+        let cont_delivery = document.getElementById('cont-delivery-cost'); // span que contiene la informacion del costo del envio
         // var subtotal_exempt = 0.00;
+
         var subtotal = 0.00;
+        var cant = 0;
         // var iva = $('input[name="iva"]').val();
         // var discount = $('input[name="discount"]').val();
         this.details.products.forEach(function (value, index, array) {
@@ -19,24 +23,39 @@ var sale = {
             value.index = index;
 
             value.cant = parseInt(value.cant);
+            cant += parseInt(value.cant);
             value.subtotal = value.cant * parseFloat(value.price);
             subtotal += value.subtotal;
             ttProduct.innerHTML = value.subtotal;
         });
-        this.details.total = subtotal;
 
-        total.innerHTML = subtotal;
+        cont_delivery.style.display = 'inline-block';
+        if (cant <= 10) {
+            delivery.innerHTML = 80;
+        }
+        if (cant >= 11 && cant <= 20) {
+            delivery.innerHTML = 150;
+        }
+        if (cant >= 21 && cant <= 30) {
+            delivery.innerHTML = 220;
+        }
+        if (cant >= 31) {
+            delivery.innerHTML = 300;
+        }
+
+        this.details.total = subtotal;
+        total.innerHTML = subtotal + parseInt(delivery.innerHTML);
     },
     listProduct: function () {
         let cards = '';
         let container = document.getElementById('continer-shop-items');
         // const element = document.createElement("div");
         // element.setAttribute("class", "shop-item")
-        this.details.products.forEach(e =>{
+        this.details.products.forEach(e => {
             cards += `<div class="shop-item">
             <div class="shop-img">
                 <figure>
-                    <img src="assets/img/products/${e.img_name}.png" alt="">
+                    <img src="assets/img/products/iremove/${e.img_name}.png" alt="">
                 </figure>
             </div>
             <div class="shop-info">
@@ -79,11 +98,11 @@ const insertProduct = async (e) => {
     searchedItem[0].cant = 1;
     searchedItem[0].subtotal = 0.00;
     sale.details.products.push(searchedItem[0]);
-    sale.listProduct();  
+    sale.listProduct();
     // sale.calculateInvoice();
 }
 
-const deleteItem = (id) =>{
+const deleteItem = (id) => {
     let contador = document.getElementById('count-items');
     contador.innerHTML = parseInt(contador.textContent) - 1;
     let index = sale.details.products.findIndex(index => index.id == id);
@@ -91,25 +110,96 @@ const deleteItem = (id) =>{
     sale.listProduct();
 }
 
-const btnShopPlus = (e) =>{
+const btnShopPlus = (e) => {
     let id = e.getAttribute('data-id');
     let index = sale.details.products.findIndex(index => index.id == id);
     sale.details.products[index].cant = $(e).val();
     sale.calculateInvoice()
 }
 
-$(function(){
-    $('#container-count').on('click', function(){
+$('#idNumberCard').on('keyup', function (e) {
+    let valorInput = e.target.value;
+
+    e.target.value = valorInput
+        // Eliminamos los espacios en blanco
+        .replace(/\s/g, '')
+        // Eliminamos las letras
+        .replace(/\D/g, '')
+        // Ponemos guion cada 4 numeros
+        .replace(/([0-9]{4})/g, '$1 ')
+        // Elimina el ultimo espaciado
+        .trim();
+})
+
+$('#idEpirationDay').on('keyup', function (e) {
+    let valorInput = e.target.value;
+
+    e.target.value = valorInput
+        // Eliminamos los espacios en blanco
+        .replace(/\s/g, '')
+        // Eliminamos las letras
+        .replace(/\D/g, '')
+        // Ponemos guion cada 2 numeros
+        .replace(/([0-9]{2})/, '$1/')
+})
+
+$('#btnCardModal').on('click', function () {
+    checkout()
+    $('#modalCard').modal('hide')
+});
+
+const checkout = () => {
+
+    if (sale.details.products.length === 0) {
         Swal.fire({
-            title: "Proceso de compra",
-            text: "Su pedido será entregado en un periodo de 1 hábil",
-            // icon: "question"
-          });
+            icon: "info",
+            title: "Favor de agregar items a su carrito",
+            showConfirmButton: true,
+        });
+        $('#paymentCard').prop('checked', false)
+    } else {
+        Swal.fire({
+            position: "top-end",
+            icon: "success",
+            title: "Su compra se ha procesado correctamente, su pedido sera entregado en 60 min",
+            showConfirmButton: false,
+            timer: 2500
+        });
+        $('#paymentCard').prop('checked', false)
         sale.details.products = [];
         sale.listProduct();
         let contador = document.getElementById('count-items');
         contador.innerHTML = 0;
+        setTimeout(function () {
+            window.location.reload();
+        }, 3000)
+    }
+
+}
+
+
+$(function () {
+    $('#container-count').on('click', function () {
+        if ($('#inputPaymentCash').prop('checked') === false && $('#paymentCard').prop('checked') === false) {
+            Swal.fire({
+                icon: "info",
+                title: "Favor de seleccionar un metodo de pago",
+                showConfirmButton: true,
+            });
+
+        } else {
+            checkout()
+        }
+    });
+
+    $('#paymentCard').on('click', function (e) {
+        if ($(this).prop('checked')) {
+            $('#modalCard').modal('show')
+        }
     })
+
+
+
 })
 
 
